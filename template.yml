@@ -1,0 +1,21 @@
+package:
+  code: react-ts-app
+  version: 1.0.0
+
+config:
+  type: web-ui
+  language: typescript
+  framework: react
+  bundler: webpack@5
+  bootstrapper: ./setup.js
+
+modules:
+  identity:
+    aws-cognito:
+      features:
+        - register
+        - login
+        - user-browser
+        - role-browser
+        - user-editor
+        - role-editor
