@@ -1,2 +1,4 @@
-var argv = require('minimist')(process.argv.slice(2));
-console.log(argv)
+const myArguments = process.argv.slice(2);
+const obj = JSON.stringify(myArguments[0])
+console.log(obj, 'obj');
+
