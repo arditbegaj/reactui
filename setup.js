@@ -1,5 +1,6 @@
 const myArguments = process.argv.slice(2);
-const modules = myArguments[0].modules;
+const obj = JSON.parse(myArguments[0]);
+const modules = obj.modules;
 console.log(modules)
-console.log(myArguments[0]);
+// console.log(myArguments[0]);
 
