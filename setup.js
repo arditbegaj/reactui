@@ -1,4 +1,4 @@
-import * as fs from 'fs-extra';
+//import * as fs from 'fs-extra';
 
 const myArguments = process.argv.slice(2);
 const modules = JSON.parse(myArguments[0]).modules;
