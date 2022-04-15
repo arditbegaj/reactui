@@ -1,2 +1,2 @@
-const myArguments = process.argv.slice(2);
-console.log(myArguments[0])
+var argv = require('minimist')(process.argv.slice(2));
+console.log(argv)
